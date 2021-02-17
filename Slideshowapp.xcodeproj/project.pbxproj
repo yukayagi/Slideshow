@@ -13,6 +13,11 @@
 		2FBD3E1625DA0AC1006E8341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E1425DA0AC1006E8341 /* Main.storyboard */; };
 		2FBD3E1825DA0AC2006E8341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E1725DA0AC2006E8341 /* Assets.xcassets */; };
 		2FBD3E1B25DA0AC2006E8341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E1925DA0AC2006E8341 /* LaunchScreen.storyboard */; };
+		2FBD3E2525DA133C006E8341 /* book_gijutsusyo_it_set.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E2425DA133C006E8341 /* book_gijutsusyo_it_set.png */; };
+		2FBD3E2825DA1515006E8341 /* computer_cloud_system.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E2725DA1515006E8341 /* computer_cloud_system.png */; };
+		2FBD3E2B25DA1571006E8341 /* computer_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E2A25DA1571006E8341 /* computer_girl.png */; };
+		2FBD3E2E25DA3410006E8341 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD3E2D25DA3410006E8341 /* ZoomViewController.swift */; };
+		2FBD3E3125DB5BE8006E8341 /* media_digital.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD3E3025DB5BE8006E8341 /* media_digital.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2FBD3E1725DA0AC2006E8341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FBD3E1A25DA0AC2006E8341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FBD3E1C25DA0AC2006E8341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBD3E2425DA133C006E8341 /* book_gijutsusyo_it_set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_gijutsusyo_it_set.png; sourceTree = "<group>"; };
+		2FBD3E2725DA1515006E8341 /* computer_cloud_system.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer_cloud_system.png; sourceTree = "<group>"; };
+		2FBD3E2A25DA1571006E8341 /* computer_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer_girl.png; sourceTree = "<group>"; };
+		2FBD3E2D25DA3410006E8341 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		2FBD3E3025DB5BE8006E8341 /* media_digital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_digital.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +69,13 @@
 				2FBD3E0E25DA0AC1006E8341 /* AppDelegate.swift */,
 				2FBD3E1025DA0AC1006E8341 /* SceneDelegate.swift */,
 				2FBD3E1225DA0AC1006E8341 /* ViewController.swift */,
+				2FBD3E2D25DA3410006E8341 /* ZoomViewController.swift */,
 				2FBD3E1425DA0AC1006E8341 /* Main.storyboard */,
 				2FBD3E1725DA0AC2006E8341 /* Assets.xcassets */,
+				2FBD3E2425DA133C006E8341 /* book_gijutsusyo_it_set.png */,
+				2FBD3E2725DA1515006E8341 /* computer_cloud_system.png */,
+				2FBD3E2A25DA1571006E8341 /* computer_girl.png */,
+				2FBD3E3025DB5BE8006E8341 /* media_digital.png */,
 				2FBD3E1925DA0AC2006E8341 /* LaunchScreen.storyboard */,
 				2FBD3E1C25DA0AC2006E8341 /* Info.plist */,
 			);
@@ -124,6 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FBD3E3125DB5BE8006E8341 /* media_digital.png in Resources */,
+				2FBD3E2B25DA1571006E8341 /* computer_girl.png in Resources */,
+				2FBD3E2525DA133C006E8341 /* book_gijutsusyo_it_set.png in Resources */,
+				2FBD3E2825DA1515006E8341 /* computer_cloud_system.png in Resources */,
 				2FBD3E1B25DA0AC2006E8341 /* LaunchScreen.storyboard in Resources */,
 				2FBD3E1825DA0AC2006E8341 /* Assets.xcassets in Resources */,
 				2FBD3E1625DA0AC1006E8341 /* Main.storyboard in Resources */,
@@ -140,6 +159,7 @@
 				2FBD3E1325DA0AC1006E8341 /* ViewController.swift in Sources */,
 				2FBD3E0F25DA0AC1006E8341 /* AppDelegate.swift in Sources */,
 				2FBD3E1125DA0AC1006E8341 /* SceneDelegate.swift in Sources */,
+				2FBD3E2E25DA3410006E8341 /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
